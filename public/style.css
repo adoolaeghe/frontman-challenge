@@ -1,0 +1,197 @@
+/* line 1, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  background-color: #E6ECF0;
+  margin: 0; }
+
+/* line 7, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#nav {
+  position: fixed;
+  width: 100%;
+  border-bottom: solid #858284 1px; }
+
+/* line 12, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#nav-inner {
+  display: flex;
+  background-color: white;
+  height: 50px; }
+
+/* line 17, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+ul#navigation {
+  display: flex;
+  padding: 0;
+  margin-left: 10%; }
+
+/* line 22, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+ul#navigation-1 {
+  display: flex;
+  padding: 0;
+  margin-left: 0px; }
+
+/* line 27, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+li#nav {
+  display: inline-block;
+  flex: 1;
+  text-align: center;
+  padding: 0px 0px; }
+
+/* line 33, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#icon {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  padding: 14px 16px;
+  width: 300px; }
+
+/* line 40, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+img#image {
+  width: 30px;
+  height: 30px; }
+
+/* line 45, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+ul#nav-right {
+  flex: 1;
+  display: flex;
+  margin-right: 10%; }
+
+/* line 50, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+li#nav-right {
+  display: flex; }
+
+/* line 53, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+input#search {
+  background-color: #F5F8FA;
+  border: solid 1px #E6ECF0;
+  border-radius: 20px; }
+
+/* line 58, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+button#btn {
+  display: block;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 35px 10px 35px;
+  background-color: #FF0500;
+  color: white; }
+
+/* line 66, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#row {
+  display: flex;
+  padding-top: 50px; }
+
+/* line 70, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+section#col-left {
+  flex: 1;
+  margin-left: 10%;
+  margin: 1% 1% 1% 10%; }
+
+/* line 75, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#profil-info {
+  display: flex; }
+
+/* line 78, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+ul#profil-info {
+  padding: 4px; }
+
+/* line 81, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+ul#trend-list {
+  padding-left: 4px;
+  color: #FF0500;
+  font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold  ", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+/* line 87, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+li {
+  list-style-type: none;
+  padding: 4px 0px 4px 0px; }
+
+/* line 91, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+a {
+  text-decoration: none; }
+
+/* line 94, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+a#trend {
+  color: #FF0500; }
+
+/* line 97, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#container {
+  justify-content: left;
+  padding: 10px;
+  margin: 10px 0px 10 0px;
+  background-color: white; }
+
+/* line 103, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#container--input--tweet {
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  background-color: #FFE6E5; }
+
+/* line 109, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div #media-body {
+  padding: 0px; }
+
+/* line 112, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+input#tweet {
+  border: solid 2px #ff9c99;
+  border-radius: 10px;
+  height: 30px;
+  width: 500px; }
+
+/* line 118, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#container--middle {
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  margin: 1px 0px 1px 0px;
+  background-color: white; }
+
+/* line 125, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+ul#pills {
+  padding: 0px; }
+
+/* line 128, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+li {
+  display: inline;
+  padding: 0px 5px 0px 5px; }
+
+/* line 132, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#custom-trends {
+  background-color: white; }
+
+/* line 135, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+section#col-sm-6 {
+  flex: 2;
+  margin: 1% 1% 1% 0%; }
+
+/* line 139, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#media-body {
+  padding: 5px 0px 0px 15px; }
+
+/* line 142, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+h4#media-heading {
+  margin-top: 0px; }
+
+/* line 145, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+section#col-sm-3 {
+  flex: 1;
+  margin: 1% 10% 1% 0%; }
+
+/* line 149, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#container--right {
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  margin: 1px 0px 1px 0px;
+  background-color: white; }
+
+/* line 156, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+img#img-rounded {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px; }
+
+/* line 161, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+img#img-rounded-1 {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px; }

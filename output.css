@@ -1,0 +1,57 @@
+/*
+Error: Invalid CSS after "#E6ECF0": expected expression (e.g. 1px, bold), was ";"
+        on line 2 of public/style.css
+
+1: body {
+2:   background-color: #E6ECF0;
+3:   margin: 0;
+4: }
+5:
+6: div#global-nav-inner {
+7:   position: fixed;
+
+Backtrace:
+public/style.css:2
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1278:in `expected'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/script/lexer.rb:231:in `expected!'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/script/parser.rb:761:in `assert_done'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/script/parser.rb:69:in `parse'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/script/parser.rb:228:in `parse'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/script.rb:27:in `parse'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:1177:in `parse_script'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:749:in `parse_property'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:708:in `parse_property_or_rule'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:667:in `parse_line'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:540:in `build_tree'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:559:in `block in append_children'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:558:in `each'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:558:in `append_children'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:549:in `block in build_tree'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:542:in `each'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:542:in `build_tree'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:559:in `block in append_children'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:558:in `each'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:558:in `append_children'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:417:in `_to_tree'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/plugin.rb:109:in `method_missing'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/exec/base.rb:52:in `parse'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/lib/sass/exec/base.rb:19:in `parse!'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/gems/sass-3.5.1/bin/sass:13:in `<top (required)>'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/bin/sass:23:in `load'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/bin/sass:23:in `<main>'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/antoinedoolaeghe/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"#E6ECF0\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of public/style.css\A \A 1: body {\A 2:   background-color: #E6ECF0;\A 3:   margin: 0;\A 4: }\A 5: \A 6: div#global-nav-inner {\A 7:   position: fixed;"; }
