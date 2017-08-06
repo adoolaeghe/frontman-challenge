@@ -41,34 +41,40 @@ div#icon {
   flex: 2;
   display: flex;
   justify-content: center;
-  padding: 14px 16px;
-  width: 300px; }
+  padding: 14px 16px; }
 
 /* line 40, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 img#image {
+  justify-content: center;
   width: 30px;
   height: 30px; }
 
-/* line 45, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 46, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 ul#nav-right {
   flex: 1;
   display: flex;
+  padding: 0px;
   margin-right: 10%;
   margin-top: 10px; }
 
-/* line 52, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 54, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 li#nav-right {
   display: flex; }
 
-/* line 55, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 57, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 input#search {
   background-color: #F5F8FA;
   border: solid 1px #E6ECF0;
   height: 30px;
   width: 200px;
-  border-radius: 20px; }
+  border-radius: 20px;
+  padding-left: 10px; }
 
-/* line 62, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 65, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+input#search::placeholder {
+  font-size: 13px; }
+
+/* line 68, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 button#btn {
   font-size: 15px;
   display: block;
@@ -79,74 +85,90 @@ button#btn {
   background-color: #FF0500;
   color: white; }
 
-/* line 72, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 78, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 div#row {
   display: flex;
   padding-top: 50px; }
 
-/* line 76, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 82, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 section#col-left {
   flex: 1;
   margin-left: 10%;
   margin: 1% 1% 1% 10%; }
 
-/* line 81, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 87, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 div#profil-info {
   display: flex; }
 
-/* line 84, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 90, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 ul#profil-info {
   padding: 4px; }
 
-/* line 87, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 93, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 h3#panel-title {
   margin: 0px; }
 
-/* line 90, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 96, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 ul#trend-list {
   padding-left: 4px;
   color: #FF0500;
   font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold  ", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
-/* line 96, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 102, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 li {
+  display: block;
   list-style-type: none;
   padding: 4px 0px 4px 0px; }
 
-/* line 100, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 107, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 a {
   text-decoration: none; }
 
-/* line 103, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 110, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 a#trend {
   color: #FF0500; }
 
-/* line 106, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 113, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 div#container {
   justify-content: left;
   padding: 10px;
   margin: 10px 0px 10 0px;
   background-color: white; }
 
-/* line 112, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 119, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#container-right-bottom {
+  color: grey;
+  font-size: 12px;
+  justify-content: left;
+  padding: 10px;
+  margin: 10px 0px 10 0px;
+  background-color: white; }
+
+/* line 127, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 div#container--input--tweet {
   display: flex;
   justify-content: left;
   padding: 10px;
   background-color: #FFE6E5; }
 
-/* line 118, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 133, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 div #media-body {
   padding: 0px; }
 
-/* line 121, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 136, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 input#tweet {
-  border: solid 2px #ff9c99;
+  border: solid 1px #ff9c99;
   border-radius: 10px;
   height: 30px;
-  width: 500px; }
+  width: 500px;
+  padding-left: 10px; }
 
-/* line 127, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 143, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+input#tweet::placeholder {
+  font-size: 14px;
+  color: red; }
+
+/* line 147, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 div#container--middle {
   display: flex;
   justify-content: left;
@@ -154,38 +176,57 @@ div#container--middle {
   margin: 1px 0px 1px 0px;
   background-color: white; }
 
-/* line 134, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 154, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+div#container--middle:hover {
+  background-color: #F5F8FA; }
+
+/* line 157, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 ul#pills {
   padding: 0px; }
 
-/* line 137, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 160, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 li {
   display: inline;
   padding: 0px 5px 0px 5px; }
 
-/* line 141, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 164, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 div#custom-trends {
   background-color: white; }
 
-/* line 144, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 167, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 section#col-sm-6 {
   flex: 2;
   margin: 1% 1% 1% 0%; }
 
-/* line 148, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 171, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 div#media-body {
   padding: 5px 0px 0px 15px; }
 
-/* line 151, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 174, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 h4#media-heading {
-  margin-top: 0px; }
+  margin: 0px 0px 4px 0px; }
 
-/* line 154, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 177, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 section#col-sm-3 {
   flex: 1;
   margin: 1% 10% 1% 0%; }
 
-/* line 158, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 181, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+a#follow-button {
+  font-size: 15px;
+  display: block;
+  height: 25px;
+  border-radius: 20px;
+  border: solid 1px #FF0500;
+  padding: 3px 15px 0px 15px;
+  background-color: white;
+  color: #FF0500; }
+
+/* line 191, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+a#follow-button:hover {
+  background-color: #FFE6E5; }
+
+/* line 194, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 div#container--right {
   display: flex;
   justify-content: left;
@@ -193,13 +234,13 @@ div#container--right {
   margin: 1px 0px 1px 0px;
   background-color: white; }
 
-/* line 165, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 201, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 img#img-rounded {
   border-radius: 100%;
   width: 60px;
   height: 60px; }
 
-/* line 170, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
+/* line 206, Users/antoinedoolaeghe/Documents/MakersAcademy/Challenge/frontman-challenge/public/style.sass */
 img#img-rounded-1 {
   border-radius: 100%;
   width: 40px;

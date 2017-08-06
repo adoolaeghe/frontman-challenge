@@ -35,9 +35,10 @@ div#icon
   display: flex
   justify-content: center
   padding: 14px 16px
-  width: 300px
+
 
 img#image
+  justify-content: center
   width: 30px
   height: 30px
 
@@ -45,6 +46,7 @@ img#image
 ul#nav-right
   flex: 1
   display: flex
+  padding: 0px
   margin-right: 10%
   margin-top: 10px
 
@@ -58,6 +60,10 @@ input#search
   height: 30px
   width: 200px
   border-radius: 20px
+  padding-left: 10px
+
+input#search::placeholder
+  font-size: 13px
 
 button#btn
   font-size: 15px
@@ -94,6 +100,7 @@ ul#trend-list
 
 
 li
+  display: block
   list-style-type: none
   padding: 4px 0px 4px 0px
 
@@ -109,6 +116,14 @@ div#container
   margin: 10px 0px 10 0px
   background-color: white
 
+div#container-right-bottom
+  color: grey
+  font-size: 12px
+  justify-content: left
+  padding: 10px
+  margin: 10px 0px 10 0px
+  background-color: white
+
 div#container--input--tweet
   display: flex
   justify-content: left
@@ -119,10 +134,15 @@ div #media-body
   padding: 0px
 
 input#tweet
-  border: solid 2px #ff9c99
+  border: solid 1px #ff9c99
   border-radius: 10px
   height: 30px
   width: 500px
+  padding-left: 10px
+
+input#tweet::placeholder
+  font-size: 14px
+  color: red
 
 div#container--middle
   display: flex
@@ -130,6 +150,9 @@ div#container--middle
   padding: 10px
   margin: 1px 0px 1px 0px
   background-color: white
+
+div#container--middle:hover
+  background-color: #F5F8FA
 
 ul#pills
   padding: 0px
@@ -149,11 +172,24 @@ div#media-body
   padding: 5px 0px 0px 15px
 
 h4#media-heading
-  margin-top: 0px
+  margin: 0px 0px 4px 0px
 
 section#col-sm-3
   flex: 1
   margin: 1% 10% 1% 0%
+
+a#follow-button
+  font-size: 15px
+  display: block
+  height: 25px
+  border-radius: 20px
+  border: solid 1px #FF0500
+  padding: 3px 15px 0px 15px
+  background-color: white
+  color: #FF0500
+
+a#follow-button:hover
+  background-color: #FFE6E5
 
 div#container--right
   display: flex
