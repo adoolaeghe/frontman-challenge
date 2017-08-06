@@ -46,6 +46,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/public\/curiosity.jpeg": {
+		"ft": 16384,
+		"iS": 23435,
+		"oA": 0,
+		"oAP": "\/public\/curiosity.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/elonmusk.jpg": {
+		"ft": 16384,
+		"iS": 23369,
+		"oA": 0,
+		"oAP": "\/public\/elonmusk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/public\/home.png": {
 		"ft": 32768,
 		"iS": 26318,
@@ -88,6 +108,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/public\/spock.jpg": {
+		"ft": 16384,
+		"iS": 13500,
+		"oA": 0,
+		"oAP": "\/public\/spock.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/public\/style.css": {
