@@ -9,10 +9,28 @@
 	],
 "creatorBuild": "25849",
 "files": {
-	"\/index.html": {
-		"ft": 8192,
+	"\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/gulpfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules": {
+		"ft": 65536,
 		"oA": 2,
-		"oAP": "\/index.html",
+		"oAP": "\/build\/node_modules",
 		"oF": 0
 		},
 	"\/output.css": {
@@ -24,6 +42,12 @@
 		"oAP": "\/output-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/partials\/navBar.ejs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/navBar.ejs",
+		"oF": 0
 		},
 	"\/public\/alien.jpg": {
 		"ft": 16384,
@@ -131,17 +155,95 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/public\/style.css": {
+	"\/public\/stylesheet\/modules\/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheet\/modules\/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheet\/partials\/_buttons.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheet\/partials\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheet\/partials\/_icons.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheet\/partials\/_icons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheet\/partials\/_images.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheet\/partials\/_images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheet\/partials\/_nav.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheet\/partials\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheet\/partials\/container.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheet\/partials\/container.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheet\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/public\/style-min.css",
+		"oAP": "\/public\/stylesheet\/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/public\/style.sass": {
+	"\/public\/stylesheet\/style.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -149,7 +251,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/public\/style.css",
+		"oAP": "\/public\/stylesheet\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -188,6 +290,36 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/views\/layout.ejs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/layout.ejs",
+		"oF": 0
+		},
+	"\/views\/partials\/col-left.ejs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/col-left.ejs",
+		"oF": 0
+		},
+	"\/views\/partials\/col-middle.ejs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/col-middle.ejs",
+		"oF": 0
+		},
+	"\/views\/partials\/col-right.ejs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/col-right.ejs",
+		"oF": 0
+		},
+	"\/views\/partials\/navBar.ejs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/navBar.ejs",
+		"oF": 0
 		}
 	},
 "hooks": [
