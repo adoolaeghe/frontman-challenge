@@ -1,12 +1,19 @@
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
   <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="JS/interface.js"></script>
 </head>
 
 <body>
- <%- include partials/navBar.ejs %>
+    <%- include partials/navBar.ejs %>
 	<div id="row">
-    <%- include partials/col-left.ejs %>
-		<%- include partials/col-middle.ejs %>
-		<%- include partials/col-right.ejs %>
+    <section id="col-left">
+      <%- include partials/col-left.ejs %>
+      <%- include partials/col-right-small.ejs %>
+    </section>
+    <%- include partials/col-middle.ejs %>
+    <%- include partials/col-right.ejs %>
 	</div>
 </body>

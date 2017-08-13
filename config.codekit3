@@ -18,15 +18,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/gulpfile.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/gulpfile-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -51,7 +42,7 @@
 		},
 	"\/public\/alien.jpg": {
 		"ft": 16384,
-		"iS": 78028,
+		"iS": 33802,
 		"oA": 0,
 		"oAP": "\/public\/alien.jpg",
 		"oF": 0,
@@ -90,6 +81,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/public\/galaxy.jpg": {
+		"ft": 16384,
+		"iS": 78202,
+		"oA": 0,
+		"oAP": "\/public\/galaxy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/public\/home.png": {
 		"ft": 32768,
 		"iS": 26318,
@@ -100,6 +101,15 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/public\/JS\/interface.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/JS\/interface-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/public\/like.png": {
 		"ft": 32768,
@@ -247,7 +257,7 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 1,
+		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
@@ -307,6 +317,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/partials\/col-middle.ejs",
+		"oF": 0
+		},
+	"\/views\/partials\/col-right-small.ejs": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/col-right-small.ejs",
 		"oF": 0
 		},
 	"\/views\/partials\/col-right.ejs": {

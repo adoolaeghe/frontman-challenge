@@ -1,37 +1,50 @@
-ul#nav-right
-  flex: 1
+ul#nav-right,
+li#nav-right,
+div#nav-inner,
+ul#navigation,
+ul#navigation-1,
   display: flex
+
+ul#nav-right, ul#navigation-1, ul#navigation, li#nav
   padding: 0px
-  margin-right: 10%
-  margin-top: 10px
 
 
-li#nav-right
+ul#nav-right
   display: flex
+  flex: 1
+  height: 50px
+  margin: 0px
+
+ul#nav-inner-right
+  display: flex
+  flex-direction: column
 
 div#nav
   position: fixed
   width: 100%
-  height: 34px
+  height: 50px
   border-bottom: solid #858284 1px
 
 div#nav-inner
-  display: flex
   background-color: white
   height: 50px
+  flex-direction: row
 
 ul#navigation
-  display: flex
-  padding: 0
-  margin-left: 10%
+  margin-left: 30%
+  height: 33px
 
 ul#navigation-1
-  display: flex
-  padding: 0
   margin-left: 0px
+  padding: 0px 10px 0px 10px
+  height: 33px
+
+ul#navigation-1:hover
+  border-bottom: solid 3px red
 
 li#nav
   display: inline-block
-  flex: 1
   text-align: center
-  padding: 0px 0px
+
+div#item
+  flex: 1
