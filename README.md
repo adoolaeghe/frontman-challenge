@@ -14,3 +14,4 @@ $ git clone https://github.com/adoolaeghe/frontman-challenge.git
 $ npm install
 $ node app.js
 ```
+# notes-app
