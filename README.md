@@ -2,7 +2,7 @@
 
 # Twitter clone
 
-The goal of this exercise was to test my front-end skills and not worrying about the backend at all. The page is produces only with HTML, CSS and JS files.
+The goal of this exercise was to test my front-end skills and not worrying about the backend at all. 
 
 I have worked with embedded javascript to render the views and Sass preprocessor for modular styling.
 
